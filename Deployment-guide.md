@@ -44,7 +44,7 @@ At this point you have 3 unique values:
 
 We recommend that you copy these values into a text file, using an application like Notepad. We will need these values later.
 
-![image2](Images/azure-config-app-step3.png)
+![image2](images/azure-config-app-step3.png)
 
 
 # Step 2: Deploy to your Azure subscription
@@ -173,7 +173,7 @@ Create two Teams app packages: one for end-users to install personally, and one 
 6. Create a ZIP package with the `manifest.json`,`color.png`, and `outline.png`. The two image files are the icons for your app in Teams.
     * Name this package `company-communicator-users.zip`, so you know that this is the app for end-users.
     * Make sure that the 3 files are the _top level_ of the ZIP package, with no nested folders.  
-    ![image10](Images/file-explorer.png)
+    ![image10](images/file-explorer.png)
 
 7. Delete the `manifest.json` file.
 
