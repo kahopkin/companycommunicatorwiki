@@ -11,8 +11,10 @@ It provides a foundation to build custom targeted communication capabilities suc
 * [Solution overview](Solution-overview)
     * [Data stores](Data-stores)
     * [Cost estimate](Cost-estimate)
+    * [Known limitations](Known-limitations)
 * Deploying the app
     * [Deployment guide](Deployment-guide)
     * [Troubleshooting](Troubleshooting)
+* [Extending Company Communicator](Taking-it-further) 
 
 
