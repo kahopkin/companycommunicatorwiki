@@ -37,7 +37,7 @@ The recommended SKUs for a production environment are:
 
 **IMPORTANT:** This is only an estimate, based on the assumptions above. Your actual costs may vary.
 
-Prices were taken from the [Azure Pricing Overview](https://azure.microsoft.com/en-us/pricing/) on 25 June 2019, for the West US 2 region.
+Prices were taken from the [Azure Pricing Overview](https://azure.microsoft.com/en-us/pricing/) on 15 August 2019, for the West US 2 region.
 
 Use the [Azure Pricing Calculator](https://azure.com/e/c3bb51eeb3284a399ac2e9034883fcfa) to model different service tiers and usage patterns.
 
