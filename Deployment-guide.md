@@ -86,7 +86,9 @@ We recommend that you copy these values into a text file, using an application l
 
 9. Click on "Purchase" to start the deployment.
 
-10. Wait for the deployment to finish. You can check the progress of the deployment from the "Notifications" pane of the Azure Portal. It can take **up to 30 minutes** for the deployment to finish.
+10. Wait for the deployment to finish. You can check the progress of the deployment from the "Notifications" pane of the Azure Portal. It can take **up to 45 minutes** for the deployment to finish.
+
+> If the deployment fails, see [this section](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Troubleshooting#1-code-deployment-failure) of the Troubleshooting guide.
 
 11. Once the deployment has finished, go to the deployment's "Outputs" tab, and note down the values. We will need them later.
     * **botId:** This is the Microsoft Application ID for the Company Communicator app
