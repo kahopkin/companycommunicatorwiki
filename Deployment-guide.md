@@ -16,7 +16,7 @@ To begin, you will need:
 
 Register an Azure AD applications in your tenant's directory for the bot.
 
-1. Log in to the Azure Portal for your subscription, and go to the "App registrations" blade [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview).
+1. Log in to the Azure Portal for your subscription, and go to the "App registrations" blade [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps).
 
 1. Click on "New registration", and create an Azure AD application.
     1. **Name**: The name of your Teams app - if you are following the template for a default deployment, we recommend "Company Communicator".
