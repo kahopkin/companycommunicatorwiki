@@ -3,6 +3,8 @@
 The estimate below assumes:
 * 1000 users in the tenant
 * 1 message sent to all users each week (~5/month)
+* Administrator opts to create a custom domain name and obtain an SSL certificate for the site. 
+    * When purchased through Azure, this is *typically* ~$12 for a domain name, and $75/year for the SSL certificate.
 
 We ignore:
 * Operations associated with app installations, as that happens only once per user/team
