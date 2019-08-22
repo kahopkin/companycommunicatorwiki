@@ -31,7 +31,7 @@ Register an Azure AD applications in your tenant's directory for the bot.
 
     ![Azure AD app overview page](images/multitenant_app_overview.png)
 
-1. On the side rail in the Manage section, navigate to the "Certificates & secrets" section. In the Client secrets section, click on "+ New client secret". Add a description for the secret, and for the Expires selection, select **Never**. Click "Add".
+1. On the side rail in the Manage section, navigate to the "Certificates & secrets" section. In the Client secrets section, click on "+ New client secret". Add a description for the secret, and choose when the secret will expire. Click "Add".
 
     ![Azure AD app overview page](images/multitenant_app_secret.png)
 
@@ -97,7 +97,7 @@ We recommend that you copy these values into a text file, using an application l
 
 # Step 3: Set up authentication
 
-1. Note the location of the app service that you deployed, which is `https://[BaseResourceName].azurewebsites.net`. For example, if you chose "contosocommunicator" as the base name, the configuration app will be at `https://contosocommunicator.azurewebsites.net`.
+1. Note the location of the app service that you deployed, which is `https://[BaseResourceName].azurewebsites.net`. For example, if you chose "contosocommunicator" as the base name, the app service will be at `https://contosocommunicator.azurewebsites.net`.
 
 2. Go back to the "App Registrations" page [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview).
 
