@@ -91,13 +91,13 @@ We recommend that you copy these values into a text file, using an application l
     > If the deployment fails, see [this section](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Troubleshooting#1-code-deployment-failure) of the Troubleshooting guide.
 
 1. Once the deployment has finished, go to the deployment's "Outputs" tab, and note down the values. We will need them later.
-    * **botId:** This is the Microsoft Application ID for the Company Communicator app. For the following steps, it will be referred to as %botId%.
-    * **appDomain:** This is the base domain for the Company Communicator app. For the following steps, it will be referred to as %appDomain%.
+    * **botId:** This is the Microsoft Application ID for the Company Communicator app. For the following steps, it will be referred to as `%botId%`.
+    * **appDomain:** This is the base domain for the Company Communicator app. For the following steps, it will be referred to as `%appDomain%`.
 
 
 # Step 3: Set up authentication
 
-1. Note that you have the %botId% and %appDomain% values from the previous step.
+1. Note that you have the `%botId%` and `%appDomain%` values from the previous step.
 
     > If you have lost these, see [this section](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Troubleshooting#2-forgetting-the-botId-or-appDomain) of the Troubleshooting guide.
 
@@ -133,7 +133,7 @@ We recommend that you copy these values into a text file, using an application l
 
 1. Click "Add application" to commit your changes.
 
-1. Repeat the previous two steps, but with client ID = `1fec8e78-bce4-4aaf-ab1b-5451cc387264`. After this step you should have two client applications listed under "Authorized client applications".
+1. Repeat the previous two steps, but with client ID = `1fec8e78-bce4-4aaf-ab1b-5451cc387264`. After this step you should have **two** client applications (`5e3ce6c0-2b1f-4285-8d4b-75ee78787346` and `1fec8e78-bce4-4aaf-ab1b-5451cc387264`) listed under "Authorized client applications".
 
 1. Back under "Manage", click on "Manifest".
 
@@ -170,11 +170,11 @@ Create two Teams app packages: one to be installed to the authors team and one f
     * `developer.privacyUrl`
     * `developer.termsOfUseUrl`
 
-1. Change the `<<appDomain>>` plachold in the configurationUrl setting to be the %appDomain% value e.g. "`https://appName.azurefd.net/configtab`".
+1. Change the `<<appDomain>>` placholder in the configurationUrl setting to be the `%appDomain%` value e.g. "`https://appName.azurefd.net/configtab`".
 
-1. Change the `<<botId>>` placeholder in the botId setting to be the %botid% value - this is your Azure AD application's ID from above. This is the same GUID that you entered in the template under "Bot Client ID".
+1. Change the `<<botId>>` placeholder in the botId setting to be the `%botId%` value - this is your Azure AD application's ID from above. This is the same GUID that you entered in the template under "Bot Client ID".
 
-1. Change the `<<appDomain>>` placeholder in the validDomains setting to be the %appDomain% value e.g. "`appName.azurefd.net`".
+1. Change the `<<appDomain>>` placeholder in the validDomains setting to be the `%appDomain%` value e.g. "`appName.azurefd.net`".
 
 1. Copy the `manifest_authors.json` file to a file named `manifest.json`.
 
