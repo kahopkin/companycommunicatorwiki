@@ -39,10 +39,22 @@ The resource type `Microsoft.Web/sites/sourcecontrols` failed to deploy. The tra
 1. Go to the "Deployment center" section of the app service that failed to deploy.
 2. Click on "Sync" to restart the deployment.
 
+If you had to do this, you may not have received the **botId** and **appDomain** values at the end of the deployment. To find them, go to the "Configuration" section of your Web App.
+
+* **botId:** This is the Microsoft Application ID for the Company Communicator app. It can be found in the "MicrosoftAppId" field of your configuration e.g. 5630f8a2-c2a0-4cda-bdfa-c2fa87654321. For the following steps, it will be referred to as %botId%.
+* **appDomain:** This is the base domain for the Company Communicator app. It is the value in the "AzureAd:ApplicationIdURI" field of your configuration without the "api://" e.g. appName.azurefd.net. For the following steps, it will be referred to as %appDomain%.
+
 We are currently looking into how to make this process more resilient to intermittent failures.
 
 
-## 2. Error when attempting to reuse a Microsoft Azure AD application ID for the bot registration
+## 2. Forgetting the botId or appDomain
+If you forgot the your **botId** and **appDomain** values from the end of the deployment. You can find them in the "Configuration" section of your Web App.
+
+* **botId:** This is the Microsoft Application ID for the Company Communicator app. It can be found in the "MicrosoftAppId" field of your configuration e.g. 5630f8a2-c2a0-4cda-bdfa-c2fa87654321. For the following steps, it will be referred to as %botId%.
+* **appDomain:** This is the base domain for the Company Communicator app. It is the value in the "AzureAd:ApplicationIdURI" field of your configuration without the "api://" e.g. appName.azurefd.net. For the following steps, it will be referred to as %appDomain%.
+
+
+## 3. Error when attempting to reuse a Microsoft Azure AD application ID for the bot registration
 ```
 Bot is not valid. Errors: MsaAppId is already in use.
 ```
@@ -53,6 +65,7 @@ This happens when the Microsoft Azure application ID entered during the setup of
 
 #### Fix
 Either register a new Microsoft Azure AD application or delete the bot registration that is currently using the attempted Microsoft Azure application ID.
+
 
 # Didn't find your problem here?
 Please report the issue [here](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/issues/new)
