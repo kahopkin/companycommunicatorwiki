@@ -160,6 +160,8 @@ We recommend that you copy these values into a text file, using an application l
 
 Create two Teams app packages: one to be installed to the authors team and one for recipients to install personally and/or to teams.
 
+1. Make sure you have cloned the app repository locally.
+
 1. Open the `Manifest\manifest_authors.json` file in a text editor.
 
 1. Change the placeholder fields in the manifest to values appropriate for your organization.
