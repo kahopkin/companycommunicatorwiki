@@ -66,7 +66,7 @@ We recommend that you copy these values into a text file, using an application l
      * App Service
 
 1. Enter a "Base Resource Name", which the template uses to generate names for the other resources.
-   * The app service names `[Base Resource Name]` must be available. For example, if you select `contosocommunicator` as the base name, the name `contosocommunicator` must be available (not taken); otherwise, the deployment will fail with a Conflict error.
+   * The app service name `[Base Resource Name]` must be available. For example, if you select `contosocommunicator` as the base name, the name `contosocommunicator` must be available (not taken); otherwise, the deployment will fail with a Conflict error.
    * Remember the base resource name that you selected. We will need it later.
 
 1. Fill in the various IDs in the template:
@@ -77,7 +77,7 @@ We recommend that you copy these values into a text file, using an application l
     Make sure that the values are copied as-is, with no extra spaces. The template checks that GUIDs are exactly 36 characters.
 
 1. Fill in the "Sender UPN List", which is a semicolon-delimited list of users who will be allowed to send messages using Company Communicator.
-    * For example, to allow Megan Bowen (meganb@contoso.com) and Adele Vance (adelev@contoso.com) to send messages, set this parameter to `meganb@contoso.com;adelv@contoso.com`.
+    * For example, to allow Megan Bowen (meganb@contoso.com) and Adele Vance (adelev@contoso.com) to send messages, set this parameter to `meganb@contoso.com;adelev@contoso.com`.
     * You can change this list later by going to the app service's "Configuration" blade.
 
 1. If you wish to change the app name, description, and icon from the defaults, modify the corresponding template parameters.
