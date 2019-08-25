@@ -1,6 +1,6 @@
 ## Message throttling
 
-Unless your bot is whitelisted for higher limits, the bot's attempt at sending a message will get throttled at 8,000 messages every 30 minutes (rolling window). If you exceed this limit, you will see messages in the throttled state. Please raise a request [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2_7qFm_lcZAr4eqEhnLsZ9UN0RWNTNNVTkwQlRIQVpRWVEyTTU3TkJDVC4u) if your app is getting throttled, we can whitelist apps which will bump up the thresholds.
+Unless your bot is whitelisted for higher limits, the bot's attempt at sending a message will get throttled at 8,000 messages every 30 minutes (rolling window). If you exceed this limit, you will see messages in the throttled state. 
 
 ## No retries
 
