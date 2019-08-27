@@ -56,7 +56,7 @@ If you forgot the your **botId** and **appDomain** values from the end of the de
 
 ## 3. Error when attempting to reuse a Microsoft Azure AD application ID for the bot registration
 ```
-Bot is not valid. Errors: MsaAppId is already in use.
+Bot is not valid. Errors: The Microsoft App ID is already registered to another bot application.. See https://aka.ms/bot-requirements for detailed requirements.
 ```
 
 * Creating the resource of type Microsoft.BotService/botServices failed with status "BadRequest"
