@@ -61,7 +61,7 @@ Bot is not valid. Errors: The Microsoft App ID is already registered to another 
 
 * Creating the resource of type Microsoft.BotService/botServices failed with status "BadRequest"
 
-This happens when the Microsoft Azure application ID entered during the setup of the deployment has already been used and registered for a bot.
+This happens when the Microsoft Azure application ID entered during the setup of the deployment has already been used and registered for a bot, for instance, if a previous deployment step failed **after** the bot was created.
 
 #### Fix
 Either register a new Microsoft Azure AD application or delete the bot registration that is currently using the attempted Microsoft Azure application ID.
