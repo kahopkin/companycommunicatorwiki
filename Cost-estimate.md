@@ -7,7 +7,7 @@ The estimate below assumes:
     * When purchased through Azure, this is *typically* ~$12 for a domain name, and $75/year for the SSL certificate.
     * If you choose to use Azure Front Door, that adds a monthly cost of $46 (for 2 routing rules + minimal bandwidth consumption).
 
-> The template defaults to using Azure Front Door, to reduce the cost of trying out and experimenting with the template, rather than requiring you to get a custom domain outright. For instance, you can run your instance for a few days, then off the services, and only pay for the actual Azure usage.
+> The template defaults to using Azure Front Door, to reduce the cost of trying out and experimenting with the template, rather than requiring you to get a custom domain outright. For instance, you can run your instance for a few days, then turn off the services, and only pay for your actual Azure usage when the services were on.
 
 We ignore:
 * Operations associated with app installations, as that happens only once per user/team
