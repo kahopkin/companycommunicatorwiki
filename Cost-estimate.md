@@ -5,6 +5,9 @@ The estimate below assumes:
 * 1 message sent to all users each week (~5/month)
 * Administrator opts to create a custom domain name and obtain an SSL certificate for the site. 
     * When purchased through Azure, this is *typically* ~$12 for a domain name, and $75/year for the SSL certificate.
+    * If you choose to use Azure Front Door, that adds a monthly cost of $46 (for 2 routing rules + minimal bandwidth consumption).
+
+> The template defaults to using Azure Front Door, to reduce the cost of trying out and experimenting with the template, rather than requiring you to get a custom domain outright. For instance, you can run your instance for a few days, then off the services, and only pay for the actual Azure usage.
 
 We ignore:
 * Operations associated with app installations, as that happens only once per user/team
