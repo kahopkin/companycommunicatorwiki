@@ -10,7 +10,7 @@ To begin, you will need:
     * Application Insights
 * A team with the users who will be sending messages with this app. (You can add and remove team members later!)
 * A copy of the Company Communicator app GitHub repo (https://github.com/OfficeDev/microsoft-teams-company-communicator-app)
-* Important: If you wish to use this template to send messages to all users/large number of users on Teams, you need to ensure all such users have the app installed in their personal scope. To programmatically install the app for the users you will need to use Pre-install Graph APIs. Documentation available [HERE](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/bots/bot-conversations/bots-conv-proactive#proactively-install-your-app-using-graph). 
+* **Important**: If you wish to use this template to send messages to all users/large number of users on Teams, you need to ensure all such users have the app installed in their personal scope. To programmatically install the app for the users you will need to use Pre-install Graph APIs. Documentation available [HERE](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/bots/bot-conversations/bots-conv-proactive#proactively-install-your-app-using-graph). 
 
 
 # Step 1: Register Azure AD application
