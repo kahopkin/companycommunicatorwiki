@@ -55,7 +55,7 @@ We recommend that you copy these values into a text file, using an application l
 
 1. When prompted, log in to your Azure subscription.
 
-1. Azure will create a "Custom deployment" based on the ARM template and ask you to fill in the template parameters.
+1. Azure will create a "Custom deployment" based on the ARM template and ask you to fill in the template parameters. Please ensure that you don't use underscore (_) in any of the field values otherwise the deployment may fail.
 
 1. Select a subscription and resource group.
    * We recommend creating a new resource group.
