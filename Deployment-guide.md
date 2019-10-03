@@ -173,7 +173,7 @@ Create two Teams app packages: one to be installed to the authors team and one f
 
 1. Change the `<<appDomain>>` placholder in the configurationUrl setting to be the `%appDomain%` value e.g. "`https://appName.azurefd.net/configtab`".
 
-1. Change the `<<botId>>` placeholder in the botId setting to be the `%botId%` value - this is your Azure AD application's ID from above. This is the same GUID that you entered in the template under "Bot Client ID".
+1. Change the `<<botId>>` placeholder in the botId setting to be the `%botId%` value - this is your Azure AD application's ID from above. This is the same GUID that you entered in the template under "Bot Client ID". Please note that there are two places in the manifest (for authors) where you will need to update Bot ID.
 
 1. Change the `<<appDomain>>` placeholder in the validDomains setting to be the `%appDomain%` value e.g. "`appName.azurefd.net`".
 
