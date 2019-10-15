@@ -12,6 +12,7 @@ To begin, you will need:
 * A copy of the Company Communicator app GitHub repo (https://github.com/OfficeDev/microsoft-teams-company-communicator-app)
 * **Important**: If you wish to use this template to send messages to all users/large number of users on Teams, you need to ensure all such users have the app installed in their personal scope. To programmatically install the app for the users you will need to use Pre-install Graph APIs. Documentation available [HERE](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/bots/bot-conversations/bots-conv-proactive#proactively-install-your-app-using-graph). 
 
+> **NOTE:** If you plan to use a custom domain name instead of relying on Azure Front Door, read the instructions [here](Custom-domain-option) first.
 
 # Step 1: Register Azure AD application
 
@@ -95,6 +96,7 @@ We recommend that you copy these values into a text file, using an application l
     * **botId:** This is the Microsoft Application ID for the Company Communicator app. For the following steps, it will be referred to as `%botId%`.
     * **appDomain:** This is the base domain for the Company Communicator app. For the following steps, it will be referred to as `%appDomain%`.
 
+> **NOTE:** If you plan to use a custom domain name instead of relying on Azure Front Door, read the instructions [here](Custom-domain-option) before continuing any further.
 
 # Step 3: Set up authentication
 
