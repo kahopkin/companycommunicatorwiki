@@ -96,7 +96,7 @@ We recommend that you copy these values into a text file, using an application l
     * **botId:** This is the Microsoft Application ID for the Company Communicator app. For the following steps, it will be referred to as `%botId%`.
     * **appDomain:** This is the base domain for the Company Communicator app. For the following steps, it will be referred to as `%appDomain%`.
 
-> **NOTE:** If you plan to use a custom domain name instead of relying on Azure Front Door, read the instructions [here](Custom-domain-option) before continuing any further.
+> **IMPORTANT:** If you plan to use a custom domain name instead of relying on Azure Front Door, read the instructions [here](Custom-domain-option) before continuing any further.
 
 # Step 3: Set up authentication
 
