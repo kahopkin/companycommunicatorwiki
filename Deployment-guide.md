@@ -56,7 +56,7 @@ We recommend that you copy these values into a text file, using an application l
 
 1. When prompted, log in to your Azure subscription.
 
-1. Azure will create a "Custom deployment" based on the ARM template and ask you to fill in the template parameters. Please ensure that you don't use underscore (_) in any of the field values otherwise the deployment may fail. Additionally, if your Azure subscription is in a different tenant than your Teams app, please change the tenantID field to the tenant in which you are deploying this Teams app.
+1. Azure will create a "Custom deployment" based on the ARM template and ask you to fill in the template parameters. Please ensure that you don't use underscore (_) or spaces in any of the field values otherwise the deployment may fail. Additionally, if your Azure subscription is in a different tenant than your Teams app, please change the tenantID field to the tenant in which you are deploying this Teams app.
 
 1. Select a subscription and resource group.
    * We recommend creating a new resource group.
