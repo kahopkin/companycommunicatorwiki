@@ -179,6 +179,8 @@ Create two Teams app packages: one to be installed to the authors team and one f
 
 1. Change the `<<appDomain>>` placeholder in the validDomains setting to be the `%appDomain%` value e.g. "`appName.azurefd.net`".
 
+1. Change the `<<botId>>` placeholder in the id setting of the webApplicationInfo section to be the `%botId%` value. Change the `<<appDomain>>` placeholder in the resource setting of the webApplicationInfo section to be the `%appDomain%` value e.g. "`api://appName.azurefd.net`".
+
 1. Copy the `manifest_authors.json` file to a file named `manifest.json`.
 
 1. Create a ZIP package with the `manifest.json`,`color.png`, and `outline.png`. The two image files are the icons for your app in Teams.
@@ -188,7 +190,7 @@ Create two Teams app packages: one to be installed to the authors team and one f
 
 1. Delete the `manifest.json` file.
 
-Repeat the steps above but with the file `Manifest\manifest_users.json`. Note: you will not need to change anything for the configurationUrl because the recipients app does not have the configurable tab. Name the resulting package `company-communicator-users.zip`, so you know that this is the app for the recipients.
+Repeat the steps above but with the file `Manifest\manifest_users.json`. Note: you will not need to change anything for the configurationUrl or webApplicationInfo section because the recipients app does not have the configurable tab. Name the resulting package `company-communicator-users.zip`, so you know that this is the app for the recipients.
 
 
 # Step 5: Run the apps in Microsoft Teams
