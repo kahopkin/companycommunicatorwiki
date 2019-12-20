@@ -110,7 +110,7 @@ We recommend that you copy these values into a text file, using an application l
 
 1. Add a new entry to "Redirect URIs":
     * **Type**: Web
-    * **Redirect URI**: Enter "`https://%appDomain%/signin-simple-end`" for the URL e.g. `https://appName.azurefd.net/signin-simple-end`
+    * **Redirect URI**: Enter `https://%appDomain%/signin-simple-end` for the URL e.g. `https://appName.azurefd.net/signin-simple-end`
 
 1. Under "Implicit grant", check "ID tokens".
 
