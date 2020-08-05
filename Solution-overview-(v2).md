@@ -70,15 +70,15 @@ This is an time trigger function and runs as per the scheduled time. It deletes 
 
 ## Microsoft Graph API 
 
-1. Company communicator app service performs group search which requires `Delegated permission` and tenant admin to provide consent.
+1. Company communicator app service performs group search which requires delegated permission and tenant admin to provide consent.
 
 |Sr. No.| Use Case | API|  Delegated permissions| API version
 |--|--|--|--|--|
 | 1. | Search Groups | GET [https://graph.microsoft.com/v1.0/groups?$filter={condition}](https://docs.microsoft.com/en-us/graph/api/group-list?view=graph-rest-1.0&tabs=http) | Group.Read.All| V1.0
 
-2. Company Communicator azure functions gets group transitive members and get user details which requires `Application permissions` and tenant admin to provide consent.
+2. Company Communicator azure functions gets group transitive members and get user details which requires application permissions and tenant admin to provide consent.
 
 |Sr. No.| Use Case | API|  Application permissions| API version
 |--|--|--|--|--|
-| 1. | Get Group Transitive Members | GET [https://graph.microsoft.com/v1.0/groups/{group-id}/transitiveMembers](https://docs.microsoft.com/en-us/graph/api/group-list-transitivemembers?view=graph-rest-1.0&tabs=http) | Group.Read.All| V1.0
-| 2. | Get User | GET [https://graph.microsoft.com/v1.0/ysers/{user-id}](https://docs.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http) | User.Read.All| V1.0
+| 1. | Get Group Transitive Members | GET [https://graph.microsoft.com/v1.0/groups/{group-id}/transitiveMembers](https://docs.microsoft.com/en-us/graph/api/group-list-transitivemembers?view=graph-rest-1.0&tabs=http) | Group.Read.All | V1.0
+| 2. | Get User | GET [https://graph.microsoft.com/v1.0/Users/{user-id}](https://docs.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http) | User.Read.All| V1.0
