@@ -4,7 +4,7 @@ The **Company Communicator** app has the following main components:
 * **App Service**: The app service implements the message compose experience in the team tab, and the messaging endpoint for the bot.
 * **Service Bus**: The individual messages sent by the bot to the recipients are enqueued on a service bus queue, to be processed by an Azure Function. This queue decouples the message composition experience from the process that delivers the message to recipients.
 * **Azure Function**: The Azure Functions picks up the messages from the queues, prepares the recipients and delivers them.
-* **Microsoft Graph API**: The app leverages Microsoft graph APIs to [Search Groups](https://docs.microsoft.com/en-us/graph/api/group-list?view=graph-rest-1.0&tabs=http), [Get Group Transitive Members](https://docs.microsoft.com/en-us/graph/api/group-list-transitivemembers?view=graph-rest-1.0&tabs=http) and [Get User](https://docs.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http).
+* **Microsoft Graph API**: The app leverages Microsoft Graph APIs to [Search Groups](https://docs.microsoft.com/en-us/graph/api/group-list?view=graph-rest-1.0&tabs=http), [Get Group Transitive Members](https://docs.microsoft.com/en-us/graph/api/group-list-transitivemembers?view=graph-rest-1.0&tabs=http) and [Get User](https://docs.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http).
 
 ## App Service
 
