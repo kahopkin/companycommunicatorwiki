@@ -275,6 +275,8 @@ Repeat the steps above but with the file `Manifest\manifest_users.json` and use 
 4. Install the User app (the `company-communicator-users.zip` package) to the users and teams that will be the target audience.
 > If `proactiveAppInstallation` is enabled, you may skip this step. The service will install the app for all the recipients when authors send a message.
 
+  **NOTE:** If you are deploying a version of Company Communicator prior to version 4, do NOT use app permission policies to restrict the authors app to the members of the authors team. Microsoft Teams does not support applying different policies to the same bot via two different app packages.
+
 ---
 
 # Troubleshooting
