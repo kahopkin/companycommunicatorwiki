@@ -86,4 +86,4 @@ You need to only update the author's team package.
   to update the app package.
 
 ##### 5. The migration is done once the deployment completed.
-No need to change AAD App Registration. It is pretty strait-forward. 
+No need to change either AAD App Registration. It is pretty strait-forward. 
