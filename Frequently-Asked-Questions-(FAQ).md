@@ -11,3 +11,15 @@ No, guest users are excluded from receiving messages. Note that they will still 
 ## Does Company Communicator respond with a message to users who ask a question or reply to a message?
 No, by default the bot only sends messages and does not respond with a message. The bot can be customized to reply with a custom message or connected to a knowledge base to respond with answers from the knowledge base.
 
+## Is it mandatory to choose multi-tenant account types while app registration?
+Yes. Bot Channels Registration only supports multi-tenant account types. Please choose multi-tenant type options only even if the app users belong to single-tenant only.
+
+| Type | Description |
+|--|--|
+| Accounts in any organizational directory (Any Azure AD - Multitenant) | This option provides less exposure by restricting access and in case OAuth is not supported. |
+| Accounts in any organizational directory (Any Azure AD - Multitenant) and personal Microsoft accounts (for example, Xbox, Outlook.com) | This option is well-suited to support OAuth and bot authentication. |
+https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#manual-app-registration
+
+## How to clone the GitHub repository?
+Please follow below link for detailed instructions on cloning GitHub repository to create a local copy on your computer and sync between the two locations.
+https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
