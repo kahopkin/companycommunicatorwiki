@@ -2,7 +2,8 @@
 Prior to version 4.1.1, messages could be sent to guest users in the following cases:
 1. The message is sent (via 1:1 chat) to a team that has guest users.
 2. The message is sent to an M365 group or security group that has guest users.
-3. Guest users that received messages in cases #1 and #2 will receive subsequent messages sent using the "All users" option.
+3. Company Communicator was installed for guest users through an app setup policy (see https://docs.microsoft.com/en-us/microsoftteams/non-standard-users#personal-bots-installed-with-policies).
+4. Guest users that received messages in cases 1-3 will receive subsequent messages sent using the "All users" option.
 
 This issue has been fixed in [v4.1.1](https://github.com/OfficeDev/microsoft-teams-apps-company-communicator/releases/tag/v4.1.1).
 
