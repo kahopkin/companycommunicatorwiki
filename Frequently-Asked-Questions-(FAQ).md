@@ -6,7 +6,9 @@ The tab where authors/creators of messages create a message is not supported on 
 # FAQs
 
 ## Are messages sent to guest users?
-No, guest users are excluded from receiving messages. Note that they will still be able to view messages posted to a channel.
+As of version 4.1.1, guest users are excluded from receiving messages. Note that they will still be able to view messages posted to a channel.
+
+> **IMPORTANT:** If you are using a version of Company Communicator <v4.1.1, please update to the latest version, and see the guidance in [Excluding guest users from messages](https://github.com/OfficeDev/microsoft-teams-apps-company-communicator/wiki/Excluding-guest-users-from-messages).
 
 ## Does Company Communicator respond with a message to users who ask a question or reply to a message?
 No, by default the bot only sends messages and does not respond with a message. The bot can be customized to reply with a custom message or connected to a knowledge base to respond with answers from the knowledge base.
