@@ -10,6 +10,9 @@ This issue has been fixed in [v4.1.1](https://github.com/OfficeDev/microsoft-tea
 ## Resolution
 To ensure that guest users are excluded from receiving messages sent via Company Communicator, please take the following steps:
 1. Update Company Communicator to version 4.1.1 or greater.
+
+If the option to proactively install the user app is set to `true`:
+
 2. Log in to the Azure Portal, and navigate to the Azure Storage account resource used by your instance of Company Communicator. Select **Data storage > Tables** from the list of options on the left side of the page. You will be taken to a page listing the tables in the storage account.
 3. Select the **UserData** table, and click **Delete** to delete the table. When prompted to confirm, select "Yes".
 4. Restart the 3 Azure Function instances used by Company Communicator.
