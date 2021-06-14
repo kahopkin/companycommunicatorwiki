@@ -182,7 +182,7 @@ Verify that you are on the same Azure AD tenant than your O365 users and where M
 
 6. Once the client secret is created, copy its **Value**; we will need it later.
 
-7. Go back to "App registrations", then repeat steps 2-5 to create another Azure AD application for the author bot.
+7. Go back to "App registrations", then repeat steps 2-6 to create another Azure AD application for the author bot.
     - **Name**: Name of your Teams App - if you are following the template for a default deployment, we recommend "Company Communicator Author".
     - **Supported account types**: Select "Accounts in any organizational directory".
     - Leave the "Redirect URI" field blank for now.
@@ -274,9 +274,9 @@ Verify that you are on the same Azure AD tenant than your O365 users and where M
     3. **Author Client ID**: The application (client) ID of the Microsoft Teams author bot app. (from Step 1)
     4. **Author Client Secret**: The client secret of the Microsoft Teams author bot app. (from Step 1)
     5. **Sender UPN List**: A semicolon-delimited list of users (Authors) who will be allowed to send messages using the Company Communicator.
-	                        - For example, to allow Megan Bowen (meganb@contoso.com) and Adele Vance (adelev@contoso.com) to send messages, set this parameter to `meganb@contoso.com;adelev@contoso.com`.
-                            - You can change this list later by going to the App Service's "Configuration" blade.  
-	6. **Proactively Install User App**: Default value is `true`. You may set it to `false` if you want to disable the feature.
+         - For example, to allow Megan Bowen (meganb@contoso.com) and Adele Vance (adelev@contoso.com) to send messages, set this parameter to `meganb@contoso.com;adelev@contoso.com`.
+         - You can change this list later by going to the App Service's "Configuration" blade.  
+    6. **Proactively Install User App**: Default value is `true`. You may set it to `false` if you want to disable the feature.
     7. **User App ExternalId**: This **MUST** be the same `id` that is in the Teams app manifest for the user app.
     8. **DefaultCulture, SupportedCultures [Optional]**: By default the application contains `en-US` resources. You may add/update the resources for other locales and update this configuration if desired.
     9. **Tenant Id**: The tenant ID where you want to install the Teams App. (from Step 1)
