@@ -226,19 +226,17 @@ Verify that you are on the same Azure AD tenant than your O365 users and where M
 
 7. If you wish to change the app name, description, and icon from the defaults, modify the corresponding template parameters.
 
-8. Click on "Review+Create" button located at the bottom of the page. It validates the deployment.
+8. Click on "Review + create" to start the deployment. It will validate the parameters provided in the template. Once the validation is passed, click on "Create" to start the deployment.
 
-9. After you get validations passed message, Click on "Create" to start the deployment.
-
-10. Wait for the deployment to finish. You can check the progress of the deployment from the "Notifications" pane of the Azure Portal. 
+9. Wait for the deployment to finish. You can check the progress of the deployment from the "Notifications" pane of the Azure Portal. 
 
     > If the deployment fails, see [this section](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Troubleshooting#1-code-deployment-failure) of the Troubleshooting guide.
 
-11. Search for Bot Service created by ARM template. Name of Bot Service will be base resource name which was provided earlier.
+10. Search for Bot Service created by ARM template. Name of Bot Service will be base resource name which was provided earlier.
 
-12. Click on Channels in Settings section of Bot Services and click on "Edit" button for Microsoft Teams Channel. Click on Delete Channel.
+11. Click on Channels in Settings section of Bot Services and click on "Edit" button for Microsoft Teams Channel. Click on Delete Channel.
 
-13. Once deleted, click on "Configure Microsoft Teams Channel" icon inside "Add a featured Channel". Select "Microsoft Teams for Government" and click on Save.
+12. Once deleted, click on "Configure Microsoft Teams Channel" icon inside "Add a featured Channel". Select "Microsoft Teams for Government" and click on Save.
 
 [[/images/BotChannelGovernment.PNG|Add channel to bot]]
 
@@ -289,15 +287,13 @@ Verify that you are on the same Azure AD tenant than your O365 users and where M
 
 7. If you wish to change Location, Git Repo Url from the defaults, modify the corresponding template parameters.
 
-8. Click on "Review+Create" button located at the bottom of the page. It validates the deployment.
+8. Click on "Review + create" to start the deployment. It will validate the parameters provided in the template. Once the validation is passed, click on "Create" to start the deployment.
 
-9. After you get validations passed message, Click on "Create" to start the deployment.
-
-10. Wait for the deployment to finish. You can check the progress of the deployment from the "Notifications" pane of the Azure Portal. It may take **30 mins** for the deployment to finish.
+9. Wait for the deployment to finish. You can check the progress of the deployment from the "Notifications" pane of the Azure Portal. It may take **30 mins** for the deployment to finish.
 
     > If the deployment fails, see [this section](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Troubleshooting#1-code-deployment-failure) of the Troubleshooting guide.
 
-11. Once the deployment is successfully completed, go to the deployment's "Outputs" tab, and note down the follwing values. We will need them later.
+10. Once the deployment is successfully completed, go to the deployment's "Outputs" tab, and note down the follwing values. We will need them later.
     - **authorBotId:** This is the Microsoft Application ID for the Company Communicator app. For the following steps, it will be referred to as `%authorBotId%`.
     - **userBotId:** This is the Microsoft Application ID for the Company Communicator app. For the following steps, it will be referred to as `%userBotId%`.
     - **appDomain:** This is the base domain for the Company Communicator app. For the following steps, it will be referred to as `%appDomain%`.
