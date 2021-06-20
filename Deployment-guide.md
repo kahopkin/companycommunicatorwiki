@@ -118,8 +118,6 @@ Register two Azure AD application in your tenant's directory: one for author bot
 
 1. If you wish to change the app name, description, and icon from the defaults, modify the corresponding template parameters.
 
-1. Agree to the Azure terms and conditions by clicking on the check box "I agree to the terms and conditions stated above" located at the bottom of the page.
-
 1. Click on "Review + create" to start the deployment. It will validate the parameters provided in the template. Once the validation is passed, click on "Create" to start the deployment.
 
 1. Wait for the deployment to finish. You can check the progress of the deployment from the "Notifications" pane of the Azure Portal. It may take **up to an hour** for the deployment to finish.
