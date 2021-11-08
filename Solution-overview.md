@@ -2,7 +2,7 @@
 
 Refer the following image for high level architecture.
 
-![Overview](images/architecture_overview_v4.png)
+![Overview](images/architecture_overview_v2.png)
 
 The **Company Communicator** app has the following main components:
 * **App Service**: The app service implements the message compose experience in the team tab, and the messaging endpoint for the bot.
