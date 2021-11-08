@@ -8,7 +8,7 @@ The **Company Communicator** app has the following main components:
 * **App Service**: The app service implements the message compose experience in the team tab, and the messaging endpoint for the bot.
 * **Service Bus**: The individual messages sent by the bot to the recipients are enqueued on a service bus queue, to be processed by an Azure Function. This queue decouples the message composition experience from the process that delivers the message to recipients.
 * **Azure Function**: The Azure Functions picks up the messages from the queues, prepares the recipients and delivers them.
-* **Azure Key vault**: The Azure Key vault stores the secrets, certificates and connection strings. For more information about the data stored, please check [this](Data-stores.md).
+* **Azure Key vault**: The Azure Key vault stores the secrets, certificates and connection strings. For more information about the data stored, please check [this](https://github.com/OfficeDev/microsoft-teams-apps-company-communicator/wiki/Data-stores#azure-key-vault).
 * **Author Bot Registration**: The Author Bot registration is used for author's app. The application is separated from the User application so that different teams policies can be applied.
 * **User Bot Registration**: The User Bot registration is used for user's app, which is installed by users to receive messages send by Company Communicator application.
 * **Graph App Registration**: The Graph application registration is used for Microsoft Graph api's. The recommended approach is to have a different application registered for managing Microsoft Graph API permissions.
