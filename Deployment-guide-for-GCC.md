@@ -202,7 +202,7 @@ Verify that you are on the same Azure AD tenant than your O365 users and where M
 
 1. Click on the **Deploy to Azure** button below.
    
-   [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FOfficeDev%2Fmicrosoft-teams-company-communicator-app%2Fmaster%2FDeployment%2FGCC%2Fbotazuredeploy.json)
+   [![Deploy to Azure](https://github.com/OfficeDev/microsoft-teams-apps-company-communicator/blob/master/Wiki/images/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FOfficeDev%2Fmicrosoft-teams-company-communicator-app%2Fmaster%2FDeployment%2FGCC%2Fbotazuredeploy.json)
 
 2. When prompted, log in to your **Azure Commercial subscription**.
 
@@ -243,7 +243,7 @@ Verify that you are on the same Azure AD tenant than your O365 users and where M
 ## Step 3. Deploy remaining resources to your Azure Government subscription
 1. Click on the **Deploy to Azure** button below.
    
-   [![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FOfficeDev%2Fmicrosoft-teams-company-communicator-app%2Fmaster%2FDeployment%2FGCC%2Fotherresourcesazuredeploy.json)
+   [![Deploy to Azure](https://github.com/OfficeDev/microsoft-teams-apps-company-communicator/blob/master/Wiki/images/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FOfficeDev%2Fmicrosoft-teams-company-communicator-app%2Fmaster%2FDeployment%2FGCC%2Fotherresourcesazuredeploy.json)
 
 2. When prompted, log in to your **Azure Government subscription**.
 
